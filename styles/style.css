@@ -3,4 +3,167 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Work Sans', sans-serif;
 }
+
+/* common code here */
+main{
+
+}
+.section{
+    height: 100vh;
+    position: relative;
+}
+/* common code ends */
+
+header{
+    position: relative;
+    text-align: right;
+}
+.header-title{
+    position: absolute;
+    right: 230px;
+    width: 525px;
+    top: 140px;
+    font-size: 65px;
+    font-weight: 700;
+    color: #151414;
+    line-height: 76px;
+    margin-bottom: 20px;
+}
+
+.header-img{
+    width: 100%;
+    height: 100vh;
+}
+
+.header-desc{
+    position: absolute;
+    right: 230px;
+    top: 410px;
+    color: #444343;
+    line-height: 26px;
+    width: 494px;
+    height: 78px;
+}
+
+.btn-primary{
+    position: absolute;
+    right: 230px;
+    top: 540px;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* main section starts from here  */
+/* failure-section starts from here  */
+.section-img{
+    position: absolute;    
+    /* height: 223px; */
+    left: 150px;
+    top: 123px;
+    width: 569px;
+
+    /* height: 723.3px;
+    left: 228px;
+    top: 943px; */
+}
+.section-img .image{
+    height: 550px; 
+
+}
+.section-blog{
+    position: absolute;
+    left: 750px;
+    top: 200px;
+    width: 428px;
+    height: 408px;
+}
+
+.section-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+.section-desc{
+    color: #444343;
+    line-height: 23px;
+    margin: 24px 0;
+}
+
+.section-blog li{
+    list-style: none;
+    margin: 8px 0;
+    color: #444343;
+}
+
+.fa-solid{
+    color: #16D887;
+    margin-right: 10px;
+}
+/* failure-section end here  */
+/* my-plan section starts from here  */
+
+.section-heading{
+    /* position: absolute; */
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    /* left: 610px;
+    top: 220px; */
+}
+.my-plans{
+    margin: 250px auto;
+    width: 80%;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    /* width: 80%; */
+    /* margin: 100px auto; */
+}
+.child{
+
+}
+
+.child-img{
+    /* position: absolute;
+    left: 319px;
+    top: 479px;  */
+
+     /* width: 92.96px;
+    height: 92.96px; */
+    
+}
+
+.child-heading{
+    color: #151414;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+
+    /* position: absolute;
+    width: 156px;
+    height: 35px; 
+    left: 598px;
+    top: 485px; */
+}
+
+.child-desc{
+    color: #737272;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* my-plan section end here  */
+
